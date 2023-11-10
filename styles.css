@@ -1,0 +1,177 @@
+html,body{
+    margin-left: 0px;
+    margin-top: 0;;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header{
+    margin: -10px;
+    margin-bottom:0px;
+    padding-top:20px;
+    padding-left: 200px;
+    display: flex;
+    height:40px;
+    background-color: #1F2937;
+}
+.header_logo{
+    padding-left:100px;
+    /* padding-right: 100px; */
+
+    flex:1;
+    width:100px;
+    font-family:"Hero Main";
+    font: 24px;
+    color: #F9FaF8;
+}
+.header_links{
+    flex:1;
+    display: flex;
+    font-family:"Hero Secondary";
+    font: 18px;
+    gap:10px;
+    color: #c8d0de;
+    padding-left: 200px;
+    padding-right: 300px;
+    width:400px;
+   justify-content:space-between ;
+}
+.top_blue_part{
+
+    background-color: #1F2937;
+    display: flex;
+
+    margin-left: -10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    
+    padding-right: 10px;
+;
+}
+.Main_title{
+    font-family:"Hero Main";
+    color:#F9FaF8;
+    font-size: 48px;
+    font-weight: 900;
+    width:300px;
+}
+.title_subtext{
+    font-family: "Hero Secondary";
+    font-size: 18px;
+    color: #c8d0de;
+    width:400px;
+    padding-bottom: 10px;
+}
+.sign_up_button{
+    width: 80px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 5px  ;
+}
+.lions{
+    width:auto;
+    height:200px;
+}
+
+
+.white_sec{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.white_sec_heading{
+    position: relative;
+    left: 30%;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Hero Main";
+    color:#1f2937;
+    margin-bottom: 1px;
+    padding: 30px 10px 30px 10px;
+}
+.photos{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    gap: 1px;
+    margin-left:300px
+}
+.white_photos{
+    width:120px;
+    height: auto;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 5px  ;
+}
+figcaption{
+    width:120px;
+    height: auto;
+}
+.grey_sec{
+    background-color: #e5e7eb;
+    padding:100px 400px 100px 400px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F293799;
+}
+.author{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    text-align: right;
+}
+.callForAction{
+    width:100%;
+    height:200px;
+    padding-bottom: 50px;
+}
+.blue_box{
+    width:650px ;
+
+    background-color:#3882f6;
+    color:#F9FaF8;
+    font-family: "Hero Main";
+    position: relative;
+    left: 20%;
+    top:30%;
+    display: flex;
+    padding: 30px 100px 30px 100px ;
+    border-radius: 10px;
+}
+.blue_box_main_text{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.blue_box_subtext{
+    color:#F9FaF8cc;
+    width: 500px;
+}
+.blue_box_sign_up{
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color:#F9FaF8;
+    border-color: #F9FaF8;
+    border-style: solid;
+    border-radius: 5px  ;
+    margin: 10px 40px 0 6px;
+}
+footer{
+    color: #F9FaF8;
+    background-color: #1F2937;
+    height:40px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -10px;
+}
