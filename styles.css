@@ -1,9 +1,8 @@
-html,body{
+html{
     margin-left: 0px;
     margin-top: 0;;
     width: 100%;
     overflow-x: hidden;
-
 }
 header{
     margin: -10px;
