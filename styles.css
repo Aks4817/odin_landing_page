@@ -3,6 +3,7 @@ html{
     margin-top: 0;;
     width: 100%;
     overflow-x: hidden;
+    margin-left:-10px
 }
 header{
     margin: -10px;
